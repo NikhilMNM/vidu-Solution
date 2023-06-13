@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+/* header and footer  */
+.navbar{
+    padding: 3vh !important;
+    background: #fff;
+}
+.topbar{
+    background: #0755A5;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+}
+.nav-item .nav-link{
+    padding-left: 4vh !important;
+}
+.nav-link ,.footer h3{
+    font-weight: 800 !important;
+}
+.topbar i,.footer i{
+    padding: 5px;
+}
+.navbar-collapse{
+    justify-content: end;
+   
+}
+.nav-container,.home-container{
+    margin: auto !important;
+    width: 70% !important;
+}
+.red-color{
+    color: #F06649 !important;
+}
+.footer{
+    background-color: #0755A5;
+    color: #fff;
+    padding: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+ input[type="submit"]{
+    background-color: #5ECAE0 !important;
+    color: #fff;
+    border: none !important;
+    padding: 8px;
+}
+input[type="email"]{
+    padding: 8px;
+}
+/* header and footer  */
+
+/* home  */
+
+.first{
+    background: url(../public/images/homebg.png);
+    background-size: 100% 100%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+.first h1{
+    font-size: 9vh;
+    font-weight: bold;
+    color: #fff;
+}
+.first a ,.a-contact{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #F06649;
+    padding: 15px;
+}
+.first h2{
+    font-size: 6vh;
+    font-weight: bold;
+    color: #fff;
+}
+.first p{
+    color: #fff;
+    font-size: 2vh;
+}
+ h6{
+    font-weight: bold !important;
+}
+.second,.third,.fourth,.fifth,.contact{
+    padding: 5vh;
+}
+.second .home-container{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.second h3{
+    font-weight: bold;
+    font-size: 4vh;
+}
+.second a{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    border: 1px solid grey;
+    padding: 15px;
+}
+.second a i{
+    color: #F06649;
+}
+.second .imgpad{
+    padding: 5vh;
+    align-self: center;
+}
+.second .col-md-7,.third .col-md-7{
+    padding: 7vh !important;
+}
+.third a{
+    text-decoration: none;
+    background: #0755A5;
+    color: #fff;
+    border: 1px solid grey;
+    padding: 15px;
+}
+.third .col-md-5{
+    align-self: center;
+}
+.third .third-side
+{
+    border: 1px solid grey;
+    padding: 5vh;
+}
+.third .col-md-5 h5{
+    color: #0755A5;
+}
+.owl-carousel .owl-item{
+    padding: 3vh;
+    
+}
+.owl-carousel .owl-item img {
+    width: 15% !important;
+}
+.owl-carousel .owl-item h5 {
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+.slider-part a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 2vh;
+}
+.owl-carousel .owl-item a i{
+    color: #F06649;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display:block !important;
+    text-align: center;
+    font-size: 7vh;
+    color: #F06649;
+   
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled .owl-prev{
+   margin-right: 5% !important;
+}
+.fourth{
+background-color: #F2FAFC;
+}
+.fourth .col-md-1 i{
+    font-size: 5vh !important;
+    color: #5ECAE0;
+}
+.a-service{
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    border: 1px solid grey;
+}
+.sixth .bgimg{
+    padding: 5vh;
+    background: url(../public/images/home-last.png);
+    background-size: 100% 100%;
+}
+.sixth h2{
+    font-size: 5vh;
+    font-weight: 500;
+    color: #fff;
+}
+/* home  */
+
+/* contact  */
+.contact input[type="text"],.contact input[type="email"],.contact input[type="tel"]
+{
+    padding: 3% 21% 3% 1%;
+    margin-top: 2%;
+    width: 100%;
+}
+.a-submit{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0755A5;
+    padding: 17px;
+}
+textarea{
+    width: 100%;
+    padding: 2%;
+}
+.inputsradio label{
+    font-size: 1.5vh;
+}
+
+/* contact  */
+
+/* service  */
+.card .col-md-3{
+    text-align: end;
+    color: #F06649;
+    font-size: 4vh;
+    align-self: center;
+}
+.card{
+    padding: 3.5vh;
+    border-radius: 0px !important;
+}
+.box-shadow{
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 12%);
+}
+.filterbtn:active,.filterbtn:focus{
+    background-color: #F06649 !important;
+    color: #fff !important;
+    /* padding: 0px;
+    border-radius: 0px; */
+}
