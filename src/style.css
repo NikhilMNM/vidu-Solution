@@ -167,18 +167,11 @@ input[type="email"]{
     font-weight: 600;
     font-size: 2vh;
 }
-.owl-carousel .owl-item a i{
-    color: #F06649;
+.slick-slide {
+    padding-left: 5px;
 }
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-    display:block !important;
-    text-align: center;
-    font-size: 7vh;
-    color: #F06649;
-   
-}
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled .owl-prev{
-   margin-right: 5% !important;
+.slick-slide .card{
+    height: 300px !important;
 }
 .fourth{
 background-color: #F2FAFC;

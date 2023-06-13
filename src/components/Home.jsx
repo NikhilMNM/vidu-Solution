@@ -164,11 +164,13 @@ function Home() {
         </div> */}
          <Slider {...sliderSettings}>
       {teamMembers.map((member, index) => (
-        <div key={index}>
+        <div className="card">
+            <div key={index}>
           <img src={member.image} alt={member.name}  /><br />
           <h5>{member.title}</h5>
           <p>{member.desc}</p>
           <a href="#">EXPLORE MORE <i className="bi bi-arrow-right"></i></a>
+        </div>
         </div>
       ))}
     </Slider>
