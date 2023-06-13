@@ -72,7 +72,7 @@ function Home() {
             <div className="col-md-7"></div>
             <div className="col-md-5">
                 <h1>Your pathway to success!</h1><br />
-                <a href="#">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></a>
+                <NavLink to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
                 <br /><br />
                 <div className="row mt-5">
                     <div className="col-md-3">
@@ -97,7 +97,7 @@ function Home() {
         </div>
     </div>
 </div>
-<div className="second mb-5">
+<div className="second mb-1">
     <div className="home-container">
         <div className="row">
             <div className="col-md-7">
@@ -105,7 +105,7 @@ function Home() {
                 <h3>A one-stop IT Consultancy solutions for smart spend management and business transformation..</h3>
                 <p>Vidu Solutions is recognized as a competent SAP sales and service partner, capable of responding promptly while ensuring stability. We provide services for SAP products such as S/4HANA, Ariba, GRC, BPC, BW, BASIC, GRCA Security, and Success factors. With our knowledge and expertise, we are able to provide our clients with the fastest deployment periods and unrivalled ROI.</p>
                 <br />
-                <a href="#">KNOW MORE <i className="bi bi-arrow-right-circle-fill"></i></a>
+                <NavLink to="/About">KNOW MORE <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
                 <br /><br />
             </div>
             <div className="col-md-5 imgpad">
@@ -125,7 +125,7 @@ function Home() {
         <div className="col-md-5">
            <div className="third-side">
            <h5>Get a free quote for SAP Ariba Buying and Invoicing, SAP BPC, SAP GRCA Security, SAP All Modules, ERP, Web design development, and Mobile app creation</h5>
-           <br /> <a href="#">GET QUOTE <i className="bi bi-arrow-right-circle-fill"></i></a>
+           <br /> <NavLink to="/Portfolio">GET QUOTE <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
            </div>
 
         </div>
@@ -274,7 +274,7 @@ function Home() {
             <div className="col-md-7"></div>
             <div className="col-md-5 pb-5 pt-3">
                 <h2>HAVE A QUESTION, NEED ASSISTANCE OR JUST MEET FOR A COFFEE</h2><br />
-                <a className="a-contact" href="#">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></a>
+                <NavLink className="a-contact" to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
             </div>
         </div>
     </div>

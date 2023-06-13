@@ -55,7 +55,19 @@ input[type="email"]{
 /* header and footer  */
 
 /* home  */
-
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
 .first{
     background: url(../public/images/homebg.png);
     background-size: 100% 100%;
@@ -72,6 +84,13 @@ input[type="email"]{
     text-decoration: none;
     color: #fff;
     background: #F06649;
+    padding: 15px;
+}
+.a-get{
+    text-decoration: none;
+    background: #0755A5;
+    color: #fff;
+    border: 1px solid grey;
     padding: 15px;
 }
 .first h2{
@@ -168,6 +187,12 @@ background-color: #F2FAFC;
     font-size: 5vh !important;
     color: #5ECAE0;
 }
+.fifth .col-md-2{
+    text-align: end;
+}
+.fifth .col-md-2 img{
+    width: 40%;
+}
 .a-service{
     text-decoration: none;
     color: #000;
@@ -228,4 +253,13 @@ textarea{
     color: #fff !important;
     /* padding: 0px;
     border-radius: 0px; */
+}
+.portfolio{
+    background: #F06649;
+    color: #fff;
+    padding: 3%;
+}
+.portfolio .col-md-4{
+    align-self: center;
+    text-align: center;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 function Serivce() {
 
     return (
@@ -154,8 +155,8 @@ function Serivce() {
                         <div className="col-md-2"></div>
                     </div>
                     <div className="mb-5 text-center mt-5">
-                        <a className="a-service" href="#">KNOW ABOUT US <i className="bi bi-arrow-right-circle-fill"></i></a>
-                        <a className="a-contact" href="#">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></a>
+                        <NavLink className="a-service" to="/About">KNOW ABOUT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
+                        <NavLink className="a-contact" to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
                     </div>
             </div>    
                 

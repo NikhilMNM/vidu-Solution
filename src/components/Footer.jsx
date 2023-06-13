@@ -13,7 +13,7 @@ function Footer() {
                     <NavLink href="#">PORTFOLIO</NavLink>
                 </div>
                 <div className="col-md-2">
-                    <h3>SERVICES</h3>
+                    <h4>SERVICES</h4>
                     <NavLink href="#">Web Application Development</NavLink><br />
                     <NavLink href="#">Mobile App Development </NavLink><br />
                     <NavLink href="#">E-commerce</NavLink><br />
@@ -24,7 +24,7 @@ function Footer() {
                     <NavLink href="#">SAP BW</NavLink>
                 </div>
                 <div className="col-md-3">
-                    <h3>CONTACT</h3>
+                    <h4>CONTACT</h4>
                     <NavLink href="#">info@vidusolutions.com</NavLink><br />
                     <NavLink href="#">(832) 295-9666</NavLink><br /><br />
                     <NavLink href="#">1500 S Dairy Ashford Rd Suite #320, Houston, TX 77077, United States.</NavLink>
@@ -35,7 +35,7 @@ function Footer() {
                     <i className="bi bi-instagram"></i>
                 </div>
                 <div className="col-md-4">
-                    <h3>NEWS LETTER</h3>
+                    <h4>NEWS LETTER</h4>
                     <p>A professional team of industry experts is supported by a workforce that is obsessed with quality and timely delivery.</p>
                     <input type="email" placeholder="Enter Your Email"/>
                     <input type="submit" value="SUBSCRIBE"/>

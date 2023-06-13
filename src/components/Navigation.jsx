@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 function Navigation() {
+  const [isHidden, setIsHidden] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Calculate the scroll position or any other conditions
+      // to determine whether the element should be hidden or not.
+      const shouldHide = window.scrollY > 100; // Example: hide after scrolling 100 pixels
+
+      setIsHidden(shouldHide);
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div className="fixed-top">
-    <div className="topbar">
+   {isHidden ? null :  <div className="topbar">
         <div className="container">
             <div className="row ">
                 <div className="col-md-6">
@@ -20,7 +39,7 @@ function Navigation() {
                 </div>
             </div>
         </div>
-    </div>
+    </div>}
     <nav className="navbar navbar-expand-lg  nav-container box-shadow">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="#">
