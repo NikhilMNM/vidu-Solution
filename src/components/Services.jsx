@@ -9,7 +9,7 @@ function Serivce() {
 
                     <div className="row mt-3 mb-5">
                 
-                        <div className="col-md-5 mt-4">
+                        <div className="col-md-4 mt-4">
                         
                            <div className="card">
                            <img src="images/ser1.png" alt="" width="100%"/>
@@ -24,8 +24,8 @@ function Serivce() {
                            </div>
                         
                         </div>
-                        <div className="col-md-2"></div>
-                        <div className="col-md-5 mt-4">
+                       
+                        <div className="col-md-4 mt-4">
                         
                            <div className="card">
                            <img src="images/ser2.png" alt="" width="100%"/>
@@ -43,26 +43,11 @@ function Serivce() {
                         </div>
                         
 
-                        <div className="col-md-5 mt-4">
-                        
-                            <div className="card">
-                            <img src="images/ser3.png" alt="" width="100%"/>
-                            <div className="row">
-                                <div className="col-md-9 mt-4">
-                                    <h5><strong> E-COMMERCE</strong></h5>
-                                </div>
-                                <div className="col-md-3 ">
-                                <i className="bi bi-arrow-right-circle-fill"></i>
-                                </div>
-                            </div>
-                    
-                            </div>
-                    
-                        </div>
-                        <div className="col-md-2"></div>
+                       
+                       
 
 
-                        <div className="col-md-5 mt-4">
+                        <div className="col-md-4 mt-4">
                             
                             <div className="card">
                             <img src="images/ser4.png" alt="" width="100%"/>
@@ -78,10 +63,26 @@ function Serivce() {
                     
                     
                         </div>
+                        <div className="col-md-4 mt-4">
+                        
+                        <div className="card">
+                        <img src="images/ser3.png" alt="" width="100%"/>
+                        <div className="row">
+                            <div className="col-md-9 mt-4">
+                                <h5><strong> E-COMMERCE</strong></h5>
+                            </div>
+                            <div className="col-md-3 ">
+                            <i className="bi bi-arrow-right-circle-fill"></i>
+                            </div>
+                        </div>
+                
+                        </div>
+                
+                    </div>
                         
 
 
-                        <div className="col-md-5 mt-4">
+                        <div className="col-md-4 mt-4">
                             
                         <div className="card">
                         <img src="images/ser5.png" alt="" width="100%"/>
@@ -97,9 +98,9 @@ function Serivce() {
                     
                     
                         </div>
-                        <div className="col-md-2"></div>
+                        
 
-                        <div className="col-md-5 mt-4">
+                        <div className="col-md-4 mt-4">
                             
                             <div className="card">
                             <img src="images/ser6.png" alt="" width="100%"/>
@@ -116,8 +117,8 @@ function Serivce() {
                     
                         </div>
                         
-
-                        <div className="col-md-5 mt-4">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-4 mt-4">
                             
                         <div className="card">
                         <img src="images/ser7.png" alt="" width="100%"/>
@@ -133,8 +134,8 @@ function Serivce() {
                     
                     
                         </div>
-                        <div className="col-md-2"></div>
-                        <div className="col-md-5 mt-4">
+                        
+                        <div className="col-md-4 mt-4">
                             
                             <div className="card">
                             <img src="images/ser8.png" alt="" width="100%"/>
@@ -150,6 +151,7 @@ function Serivce() {
                         
                         
                         </div>
+                        <div className="col-md-2"></div>
                     </div>
                     <div className="mb-5 text-center mt-5">
                         <a className="a-service" href="#">KNOW ABOUT US <i className="bi bi-arrow-right-circle-fill"></i></a>
