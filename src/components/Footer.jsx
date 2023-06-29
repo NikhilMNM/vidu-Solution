@@ -9,11 +9,11 @@ function Footer() {
                 <div className="col-md-3">
                     <NavLink href="#"><img src="images/logo-2.svg" alt=""/></NavLink><br /><br />
                     <p>A professional team of industry experts is supported by a workforce that is obsessed with quality and timely delivery.</p>
-                    <NavLink href="#">ABOUT</NavLink><br />
-                    <NavLink href="#">PORTFOLIO</NavLink>
+                    <NavLink href="#"><h5>ABOUT</h5></NavLink>
+                    <NavLink href="#"><h5>PORTFOLIO</h5></NavLink>
                 </div>
                 <div className="col-md-2">
-                    <h4>SERVICES</h4>
+                    <h5>SERVICES</h5>
                     <NavLink href="#">Web Application Development</NavLink><br />
                     <NavLink href="#">Mobile App Development </NavLink><br />
                     <NavLink href="#">E-commerce</NavLink><br />
@@ -24,7 +24,7 @@ function Footer() {
                     <NavLink href="#">SAP BW</NavLink>
                 </div>
                 <div className="col-md-3">
-                    <h4>CONTACT</h4>
+                    <h5>CONTACT</h5>
                     <NavLink href="#">info@vidusolutions.com</NavLink><br />
                     <NavLink href="#">(832) 295-9666</NavLink><br /><br />
                     <NavLink href="#">1500 S Dairy Ashford Rd Suite #320, Houston, TX 77077, United States.</NavLink>
@@ -35,7 +35,7 @@ function Footer() {
                     <i className="bi bi-instagram"></i>
                 </div>
                 <div className="col-md-4">
-                    <h4>NEWS LETTER</h4>
+                    <h5>NEWS LETTER</h5>
                     <p>A professional team of industry experts is supported by a workforce that is obsessed with quality and timely delivery.</p>
                     <input type="email" placeholder="Enter Your Email"/>
                     <input type="submit" value="SUBSCRIBE"/>

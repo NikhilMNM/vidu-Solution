@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
    <>
-    <div className="contact mb-4" style={{paddingTop:'12%'}}>
+    <div className="contact mb-4 padt" style={{paddingTop:'12%'}}>
     <div className="home-container">
         <div className="row">
             <div className="col-md-6">

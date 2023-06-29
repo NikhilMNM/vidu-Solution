@@ -2,10 +2,10 @@
 
 body{
     font-family: 'Inter', sans-serif !important;
+    overflow-x: hidden;
 }
 /* header and footer  */
 .navbar{
-    padding: 3vh !important;
     background: #fff;
 }
 .topbar{
@@ -27,10 +27,7 @@ body{
     justify-content: end;
    
 }
-.nav-container,.home-container{
-    margin: auto !important;
-    width: 70% !important;
-}
+
 .red-color{
     color: #F06649 !important;
 }
@@ -180,12 +177,8 @@ background-color: #F2FAFC;
     font-size: 5vh !important;
     color: #5ECAE0;
 }
-.fifth .col-md-2{
-    text-align: end;
-}
-.fifth .col-md-2 img{
-    width: 40%;
-}
+
+
 .a-service{
     text-decoration: none;
     color: #000;
@@ -234,10 +227,7 @@ textarea{
     font-size: 4vh;
     align-self: center;
 }
-.card{
-    padding: 3.5vh;
-    border-radius: 0px !important;
-}
+
 .box-shadow{
     box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 12%);
 }
@@ -255,4 +245,103 @@ textarea{
 .portfolio .col-md-4{
     align-self: center;
     text-align: center;
+}
+
+@media only screen and (min-width: 992px)
+{
+    .nav-container,.home-container{
+        margin: auto !important;
+        width: 70% !important;
+        
+    }
+    .navbar{
+        padding: 3vh !important;
+    }
+    .fifth .col-md-2 {
+        text-align: end;
+    }
+    .fifth .col-md-2 img{
+        width: 40%;
+    }
+    .noweb{
+        display: none;
+    }
+    .about h1{
+        font-size: 9vh;
+        font-weight: bold;
+    }
+    .card{
+        padding: 3.5vh;
+        border-radius: 0px !important;
+    }
+
+}
+@media only screen and (max-width: 992px)
+{
+    
+    .card{
+        padding: 2vh;
+        border-radius: 0px !important;
+    }
+    .fifth .col-md-2 img{
+        width: 100%;
+    }
+    .nomobile{
+        display: none;
+    }
+    
+    .first-mobile{
+        text-align: center;
+    }
+    .first-mobile h1{
+        font-size: 6vh;
+        text-align: center;
+        margin-top: -60%;
+        font-weight: bold;
+        color: #fff;
+    }
+    .first-mobile h2{
+        font-size: 5vh;
+        text-align: center;
+        margin-top: -90%;
+        color: #fff;
+    }
+    .first-mobile a{
+        text-align: center;
+        margin-top: -55%;
+        text-decoration: none;
+        color: #fff;
+        background: #F06649;
+        padding: 20px;
+    }
+    .second h3 {
+        font-size: 3vh;
+    }
+    .second .row{
+        flex-direction: column-reverse;
+    }
+    .third{
+        background-color: #EAEAEA;
+    }
+    .third-side{
+        background-color: #fff;
+        border-color: #fff !important;
+    }
+    .footer .col-md-3,.footer .col-md-4{
+        padding-top: 20px;
+    }
+    .about h1{
+        font-size: 5vh;
+        font-weight: bold;
+    }
+    .fourth .col-12{
+        margin-top: 30px;
+    }
+    .a-contact{
+        margin-left: 0px;
+        
+    }
+    .padt{
+        padding-top: 40% !important;
+    }
 }

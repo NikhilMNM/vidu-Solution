@@ -84,7 +84,7 @@ const filteredImages = selectedFilter
 return (
     <>
     
-   <div className=" home-container" style = {{paddingTop:'12%'}}>
+   <div className=" home-container padt" style = {{paddingTop:'12%'}}>
     <h1><strong>PORTFOLIO</strong></h1>
     <div class = "row mt-3 mb-4 button-group filter-button-group">
             <div class = "col product-flex justify-content-center">

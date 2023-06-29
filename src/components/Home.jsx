@@ -66,7 +66,7 @@ function Home() {
   return (
   
 <div>
-<div className="first">
+<div className="first nomobile ">
     <div className="">
         <div className="row">
             <div className="col-md-7"></div>
@@ -97,7 +97,15 @@ function Home() {
         </div>
     </div>
 </div>
-<div className="second mb-1">
+<div className="first-mobile mt-5 noweb">
+    <img src="images/mobile-first.png" width="100%" alt="" />
+   <div>
+   <h1>Your pathway to success!</h1><br />
+    <NavLink to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
+   </div>
+
+</div>
+<div className="second mb-1 mt-5">
     <div className="home-container">
         <div className="row">
             <div className="col-md-7">
@@ -114,7 +122,7 @@ function Home() {
         </div>
     </div>
 </div>
-<div className="third ">
+<div className="third mb-2">
   <div className="home-container">
   <div className="row">
         <div className="col-md-7">
@@ -134,7 +142,7 @@ function Home() {
 </div>
 
 <div className="slider-part mb-5">
-    <div className="home-container">
+    <div className="container">
         {/* <div className="owl-carousel">
             <div className="item">
                 <img src="images/web.svg"  alt=""/> <br />
@@ -208,8 +216,8 @@ function Home() {
                         <p>We always believe in adopting new technologies to solve the customer’s problems.</p>
                     </div>
                 </div><br />
-                <NavLink className="a-service" to="/Service">OUR SERVICES <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
-                <NavLink className="a-contact" to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
+                <NavLink className="a-service nomobile" to="/Service">OUR SERVICES <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
+                <NavLink className="a-contact nomobile" to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
             </div>
         </div>
     </div>
@@ -219,50 +227,50 @@ function Home() {
     <div className="home-container">
         <h6>OUR SPECIAL FEATURE</h6>
         <div className="row mt-5">
-            <div className="col-md-2">
+            <div className="col-md-2 col-4">
                 <img src="images/f1.svg" alt=""/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-8">
                 <h6>ECONOMIC POLICY</h6>
                 <p>We are the world’s fastest-growing IT Company. Over the last decade, Vidu Solutions has grown at an exponential rate.</p>
             </div>
 
-            <div className="col-md-2">
+            <div className="col-md-2 col-4">
                 <img src="images/f2.svg" alt=""/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-8">
                 <h6>BUSINESS MODEL</h6>
                 <p>As digital entrepreneurs, our ultimate goal is to establish a profitable business model from a stable and well-tested business concept.</p>
             </div>
 
-            <div className="mt-5 col-md-2">
+            <div className="mt-5 col-md-2 col-4">
                 <img src="images/f3.svg" alt=""/>
             </div>
-            <div className="mt-5 col-md-4">
+            <div className="mt-5 col-md-4 col-8">
                 <h6>SECURITY PROTECTION</h6>
                 <p>Being accountable and responsible for customer data privacy and policy are important components of our security model.</p>
             </div>
 
-            <div className="mt-5 col-md-2">
+            <div className="mt-5 col-md-2 col-4">
                 <img src="images/f4.svg" alt=""/>
             </div>
-            <div className="mt-5 col-md-4">
+            <div className="mt-5 col-md-4 col-8">
                 <h6>NICE COMMUNICATION</h6>
                 <p>To deliver strong, unambiguous messages regarding strategy, customer service, and branding in business, communication is crucial. Our company creates a brand communication which is consistent and exclusive to its target market.</p>
             </div>
 
-            <div className="mt-2 col-md-2">
+            <div className="mt-2 col-md-2 col-4">
                 <img src="images/f5.svg" alt=""/>
             </div>
-            <div className="mt-2 col-md-4">
+            <div className="mt-2 col-md-4 col-8">
                 <h6>DIGITAL STRATEGY</h6>
                 <p>For the finest digital marketing strategy for our clients, our team uses a variety of digital channels to develop and analyse campaigns, content, and strategy.</p>
             </div>
 
-            <div className="mt-2 col-md-2">
+            <div className="mt-2 col-md-2 col-4">
                 <img src="images/f6.svg" alt=""/>
             </div>
-            <div className="mt-2 col-md-4">
+            <div className="mt-2 col-md-4 col-8">
                 <h6>CONSULTATION</h6>
                 <p>We provide 100% free consultation on call, text, or email. To help you completely with our services we would like to learn everything there is to know about it.</p>
             </div>
@@ -270,7 +278,7 @@ function Home() {
     </div>
 </div>
 
-<div className="sixth mt-3 mb-3">
+<div className="sixth mt-3 mb-3 nomobile">
     <div className="home-container">
         <div className="row bgimg">
             <div className="col-md-7"></div>
@@ -281,6 +289,16 @@ function Home() {
         </div>
     </div>
 </div>
+
+<div className="first-mobile mt-5 mb-5 noweb">
+    <img src="images/mobilebgf.png" width="100%" alt="" />
+   <div>
+   <h2>HAVE A QUESTION, NEED ASSISTANCE OR JUST MEET FOR A COFFEE</h2><br />
+    <NavLink to="/Contact">CONTACT US <i className="bi bi-arrow-right-circle-fill"></i></NavLink>
+   </div>
+
+</div>
+
 </div>
 
   );

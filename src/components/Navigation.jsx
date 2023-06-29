@@ -42,7 +42,7 @@ function Navigation() {
     </div>}
     <nav className="navbar navbar-expand-lg  nav-container box-shadow">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="#">
+          <NavLink className="navbar-brand" to="/">
             <img src="images/logo-1.svg" alt=""/>
           </NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
